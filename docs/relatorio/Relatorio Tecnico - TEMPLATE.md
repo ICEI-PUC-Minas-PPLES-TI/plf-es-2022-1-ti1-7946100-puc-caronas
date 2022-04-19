@@ -203,53 +203,13 @@ As ferramentas empregadas no projeto são:
 
 - Editor de código: visual studio code
 - Ferramentas de comunicação: Discord e Whatsapp 
-- Ferramentas de diagramação: draw.io
-- Plataforma de hospedagem: 
 
-Escolhemos o vc code porque ele o mais utilizado, mais versatil, e ja tinhamos conhecimento dele. 
-As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. 
-Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
-> 
-> **Links Úteis - Hospedagem**:
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
-> - [GoDady](https://br.godaddy.com/how-to)
-> - [GitHub Pages](https://pages.github.com/)
+Escolhemos o vc code porque ele e o mais utilizado, mais versatil, e ja tinhamos conhecimento dele. 
+As ferramentas de comunicação utilizadas possuem integração semelhante e todos do grupo já utilizam com frequência, facilitando a comunicação interna. 
 
 ## Controle de Versão
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Discuta como a configuração do projeto foi feita na ferramenta de
-> versionamento escolhida. Exponha como a gerência de tags, merges,
-> commits e branchs é realizada. Discuta como a gerência de issues foi
-> realizada.
-> A ferramenta de controle de versão adotada no projeto foi o
-> [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-> foi utilizado para hospedagem do repositório `upstream`.
-> 
-> O projeto segue a seguinte convenção para o nome de branchs:
-> 
-> - `master`: versão estável já testada do software
-> - `unstable`: versão já testada do software, porém instável
-> - `testing`: versão em testes do software
-> - `dev`: versão de desenvolvimento do software
-> 
-> Quanto à gerência de issues, o projeto adota a seguinte convenção para
-> etiquetas:
-> 
-> - `bugfix`: uma funcionalidade encontra-se com problemas
-> - `enhancement`: uma funcionalidade precisa ser melhorada
-> - `feature`: uma nova funcionalidade precisa ser introduzida
->
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [5 Git Workflows & Branching Strategy to deliver better code](https://zepel.io/blog/5-git-workflows-to-improve-development/)
->
-> **Exemplo - GitHub Feature Branch Workflow**:
->
-> ![Exemplo de Wireframe](images/Github-Workflow.png)
+A ferramenta para controle de versão que escolhemos foi o próprio GitHub, que é a mais utilizada e com o uso mais fácil com o GitHub Desktop. Nós ainda não utilizamos pois não chegamos na parte de programação do projeto, apenas a parte conceitual.
 
 # **############## SPRINT 1 ACABA AQUI #############**
 
@@ -279,7 +239,7 @@ Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as ne
 
 ......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
 
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
+> Inclua um diagrama da solução e descreva os módulos e aroes tecnologias
 > que fazem parte da solução. Discorra sobre o diagrama.
 > 
 > **Exemplo do diagrama de Arquitetura**:
