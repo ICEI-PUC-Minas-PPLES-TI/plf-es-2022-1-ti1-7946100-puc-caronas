@@ -1,21 +1,20 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+PUC CARONAS
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Engenharia de software
 
 ## Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+- André Calebe
+- Bruno Duarte
+- Gabriel Amorim
+- Lucas de Carvalho
+- Vinícius Assis
 
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
 
 # Estrutura do Documento
 
@@ -56,79 +55,25 @@
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
->
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Infelizmente, carros particulares vêm se tornando cada vez mais inviáveis, tendo em vista o alto investimento inicial necessário para a aquisição de um. Ademais, o valor de veículos cresce cada vez mais assim como o combustível e o seguro. Por outro lado, os aplicativos de transporte não são acessíveis à grande maioria da população, especialmente pelo fator limitador financeiro. Nesse viés, muitos têm como alternativa principal o transporte público: ônibus ou metrô, o resultado é sempre o mesmo. Desconforto e falta de segurança estão presentes diariamente na vida de milhares de brasileiros.
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
 
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+O projeto tem como foco conectar estudantes com necessidades complementares. Assim, alunos que utilizam veículos particulares para se locomover à faculdade ofereceriam carona a alunos interessados, que muitas das vezes dependem atualmente de transportes ineficientes. A operação seria realizada por meio da cobrança de uma tarifa de um valor simbólico, próximo a uma passagem de ônibus, para contribuir com o pagamento do combustível. Por fim, a acessibilidade do projeto é de suma importância, tendo em mente que ele visa ajudar ao máximo de pessoas possível dentro do ambiente universitário.
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+	A justificativa do projeto reside em um novo modo de juntar os dois mundos: a cooperação entre alunos com e sem carro. Dessa forma, segundo pesquisa efetuada entre estudantes da faculdade, cerca de 80% dos alunos estariam dispostos a utilizar da plataforma idealizada no projeto como meio de transporte universitário principal. Além disso, as vans e o carro particular dominam as estatísticas de meio de transporte em 70%, criando um leque de oportunidades para a união entre os dois âmbitos, e com um custo acessível a todos. A ideia da inovação da locomoção para estudantes surgiu tendo a necessidade dos alunos em vista: gastar pouco no traslado diário. Após idealização e pesquisa, foi constatado que ambos os lados dos agentes principais para a efetivação do projeto poderiam ser beneficiados, cada um em sua maneira.
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O público alvo contempla a grande maioria dos estudantes das unidades da PUC, de forma independente da faixa etária. Nesse viés, alunos com carro poderão utilizar o aplicativo de forma eficiente, tendo um auxílio financeiro; assim como aqueles sem carro particular, que terão como vantagem utilizar a carona em detrimento do transporte anterior.
  
 # Especificações do Projeto
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
 
 ## Personas e Mapas de Empatia
 
@@ -160,23 +105,10 @@
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+1.	EU, COMO pessoa que vai dar a carona, QUERO uma tela para cadastrar as minhas informações que são necessárias, outra tela para visualizar as possíveis pessoas que eu poderia dar carona com base na minha rota, podendo ser mostrada a rota da pessoa ou não, e um chat para entrar em contato com a pessoa, PARA QUE eu possa combinar com a pessoa que precisa de carona qual vai ser o nosso acordo de carona. 
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+2.	EU, COMO pessoa que precisa de carona, QUERO uma tela para cadastrar as minhas informações que são necessárias, outra tela para visualizar as possíveis pessoas que me dariam carona com base na minha rota, podendo ser mostrada a rota da pessoa ou não, e um chat para entrar em contato com a pessoa, PARA QUE eu possa combinar com a pessoa que possivelmente me daria carona qual vai ser o nosso acordo de carona. 
 
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
 
 ## Requisitos
 
@@ -184,136 +116,72 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+- O programa deve conter uma tela para o cadastro completo tanto de quem dá a carona e de quem recebe. Essa tela deve conter formulários para o preenchimento das informações de cada indivíduo, contendo seu nome, idade, curso que faz, rota utilizada, valor gasto em seu deslocamento. No final para que o formulário seja enviado, o usuário deve concordar com os termos de uso e políticas do aplicativo/programa. PRIORIDADE: ALTA
+
+
+- Logo após o cadastro deve haver uma tela de login para o usuário acessar uma tela com uma API de mapas da Google, que calcula rotas. PRIORIDADE: MEDIA 
+ 
+- Após o usuário inserir sua localização, seu destino e sua rota ser calculada, deve aparecer uma tela com as rotas e necessidades de cada usuário, com base no seu cadastro (Caso seja cadastrado como quem vai dar a carona, deve aparecer pessoas que precisam de carona; e caso seja cadastrado como quem precisa de carona deve aparecer quem está dando carona). PRIORIDADE: ALTA 
+
+
+- Caso o usuário clique em alguma pessoa, deve aparecer as informações pertinentes para que as pessoas se comuniquem e saibam qual a rota e destino de cada uma, e um chat para elas se comunicarem.  PRIORIDADE: ALTA
+
 
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+- O programa deve ser escrito na linguagem C# utilizando o MySql de banco de dados para computador, e Kotlin e Swift para IOS e Android utilizando MongoDB de banco de dados  PRIORIDADE: MEDIA 
+- 
+- O aplicativo/programa deve ser multiplataforma, sendo IOS, Android e Windows, MAC e WEB.  PRIORIDADE: MEDIA
+- 
+- O sistema deve respeitar o tempo máximo de 120 segundos durante processamentos.  PRIORIDADE: ALTA
 
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-> 
-> **Links Úteis**:
-> 
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+-	O projeto será executado paralelamente às outras atividades universitárias, visto que inicialmente unicamente é só um trabalho universitário. 
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+-	O projeto não tem orçamento inicial previsto. 
 
+-	O projeto completo deve ser entregue ao final do semestre, não necessariamente operando, mas funcionando para fins avaliativos. 
 
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+-	Caso algum integrante saia do projeto durante o seu desenvolvimento, deve-se imediatamente procurar outro para substituir, visto que o projeto é algo que DEVE ser concluído. 
+
 
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
-
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
+Nós desenvolvemos uma interface amigavel, e de facil uso, tendo em vista que acessibilidade é essencial para o sucesso do nosso projeto. São cinco telas principais durante o uso da aplicação que envolvem cadastro, login, rotas e contato.
 
 ## User Flow
 
 ......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
-
-> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
-> mapear todo fluxo de telas do site ou app. Essa técnica funciona
-> para alinhar os caminhos e as possíveis ações que o usuário pode
-> fazer junto com os membros de sua equipe.
->
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
->
-> **Exemplo**:
-> 
-> ![Exemplo de UserFlow](images/userflow.jpg)
 
 
 ## Wireframes
 
 ......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
 
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> 
-> **Exemplo**:
-> 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
-
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A metodologia adotada pelo grupo foi o scrum. Criamos sprints internos para as partes que foram designadas para cada um (num intervalo de 3 dias) e discutíamos o próximo sprint tendo em base o que faltava ser feito. Além disso, houveram conversas diárias entre o grupo e com pontenciais clientes, abrodando tópicos relacionados ao projeto. Por fim, fizemos backlog do produto e, a partir de seus resultados, montamos o backlog do sprint, divindo também as tarefas.
 
-> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
-> 
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Utilizamos o Trello para a efetivação do KanBan, mantendo controle sobre o que faltava ser feito e quem o estava fazendo. Seguem o link do quadro controle de tarefas e o print do mesmo:
+https://trello.com/b/5SyInRQi/tiaw-puc-caronas
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
+-André: formulários, projeto de Interface, ambiente GitHub, ambiente FIGMA
+-Bruno: contexto do projeto, entrevistas qualitativas, design thinking, apresentação Power Point, personas
+-Gabriel: Especificação do projeto, personas
+-Lucas: contexto do projeto, quadro controle de tarefas (KanBan), personas
+-Vinicius: Metodologia, design thinking, ambiente MIRO
 
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+As tarefas foram divididas com base no modelo scrum.
+ 
+![image]()
 
 
 ## Ferramentas
@@ -322,27 +190,25 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
+|Processo de Design Thinking  | Miro |  https://miro.com/app/board/uXjVOA3AAhM=/ | 
 |Repositório de código | GitHub | https://github.com/XXXXXXX | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
+|Protótipo Interativo |  Figma | https://www.figma.com/file/HE4KyhmiBYZsDRFpOxQHd8/Untitled?node-id=0%3A1| 
+|KanBan |  Trello | https://trello.com/b/5SyInRQi/tiaw-puc-caronas| 
 
 >
 > Liste as ferramentas empregadas no desenvolvimento do
 > projeto, justificando a escolha delas, sempre que possível.
 > 
-> As ferramentas empregadas no projeto são:
-> 
-> - Editor de código.
-> - Ferramentas de comunicação
-> - Ferramentas de diagramação
-> - Plataforma de hospedagem
-> 
-> O editor de código foi escolhido porque ele possui uma integração com o
-> sistema de versão. As ferramentas de comunicação utilizadas possuem
-> integração semelhante e por isso foram selecionadas. Por fim, para criar
-> diagramas utilizamos essa ferramenta por melhor captar as
-> necessidades da nossa solução.
+As ferramentas empregadas no projeto são:
+
+- Editor de código: visual studio code
+- Ferramentas de comunicação: Discord e Whatsapp 
+- Ferramentas de diagramação: draw.io
+- Plataforma de hospedagem: 
+
+Escolhemos o vc code porque ele o mais utilizado, mais versatil, e ja tinhamos conhecimento dele. 
+As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. 
+Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
 > 
 > **Links Úteis - Hospedagem**:
 > - [Getting Started with Heroku](https://devcenter.heroku.com/start)
