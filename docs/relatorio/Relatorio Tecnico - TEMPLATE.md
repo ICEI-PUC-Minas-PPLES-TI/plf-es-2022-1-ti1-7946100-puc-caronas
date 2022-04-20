@@ -128,7 +128,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 # Projeto de Interface
 
-Nós desenvolvemos uma interface amigavel, e de facil uso, tendo em vista que acessibilidade é essencial para o sucesso do nosso projeto. São cinco telas principais durante o uso da aplicação que envolvem cadastro, login, rotas e contato.
+Nós desenvolvemos uma interface amigável, e de fácil uso, tendo em vista que acessibilidade é essencial para o sucesso do nosso projeto. São cinco telas principais durante o uso da aplicação que envolvem cadastro, login, rotas e contato.
 
 ## User Flow
 
@@ -143,7 +143,7 @@ O wireframe mostra, de forma pouco detalhada, como o aplicativo funcionaria. Ass
 
 # Metodologia
 
-A metodologia adotada pelo grupo foi o scrum. Criamos sprints internos para as partes que foram designadas para cada um (num intervalo de 3 dias) e discutíamos o próximo sprint tendo em base o que faltava ser feito. Além disso, houveram conversas diárias entre o grupo e com pontenciais clientes, abrodando tópicos relacionados ao projeto. Por fim, fizemos backlog do produto e, a partir de seus resultados, montamos o backlog do sprint, divindo também as tarefas.
+A metodologia adotada pelo grupo foi o scrum. Criamos sprints internos para as partes que foram designadas para cada um (num intervalo de 3 dias) e discutíamos o próximo sprint tendo em base o que faltava ser feito. Além disso, houveram conversas diárias entre o grupo e com pontenciais clientes, abordando tópicos relacionados ao projeto. Por fim, fizemos backlog do produto e, a partir de seus resultados, montamos o backlog do sprint, dividindo também as tarefas.
 
 Utilizamos o Trello para a efetivação do KanBan, mantendo controle sobre o que faltava ser feito e quem o estava fazendo. Seguem o link do quadro controle de tarefas e o print do mesmo:
 https://trello.com/b/5SyInRQi/tiaw-puc-caronas
@@ -166,7 +166,7 @@ As tarefas foram divididas com base no modelo scrum.
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
 |Processo de Design Thinking  | Miro |  https://miro.com/app/board/uXjVOA3AAhM=/ | 
-|Repositório de código | GitHub | https://github.com/XXXXXXX | 
+|Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-puc-caronas | 
 |Protótipo Interativo |  Figma | https://www.figma.com/file/HE4KyhmiBYZsDRFpOxQHd8/Untitled?node-id=0%3A1| 
 |KanBan |  Trello | https://trello.com/b/5SyInRQi/tiaw-puc-caronas| 
 
