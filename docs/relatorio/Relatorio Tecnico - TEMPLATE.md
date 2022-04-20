@@ -72,9 +72,6 @@ O público alvo contempla a grande maioria dos estudantes das unidades da PUC, d
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-
 ## Personas e Mapas de Empatia
 
 ![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-puc-caronas/blob/master/docs/relatorio/images/persona1.jpg?raw=true)
@@ -110,9 +107,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 ### Requisitos não Funcionais
 
 - O programa deve ser escrito na linguagem C# utilizando o MySql de banco de dados para computador, e Kotlin e Swift para IOS e Android utilizando MongoDB de banco de dados  PRIORIDADE: MEDIA 
-- 
+
 - O aplicativo/programa deve ser multiplataforma, sendo IOS, Android e Windows, MAC e WEB.  PRIORIDADE: MEDIA
-- 
+
 - O sistema deve respeitar o tempo máximo de 120 segundos durante processamentos.  PRIORIDADE: ALTA
 
 
@@ -135,13 +132,14 @@ Nós desenvolvemos uma interface amigavel, e de facil uso, tendo em vista que ac
 
 ## User Flow
 
-......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
-
+![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-puc-caronas/blob/master/docs/relatorio/images/fluxo1.jpg?raw=true)
+![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-puc-caronas/blob/master/docs/relatorio/images/fluxo2.jpg?raw=true)
+![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-puc-caronas/blob/master/docs/relatorio/images/fluxo3.jpg?raw=true)
 
 ## Wireframes
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
-
+![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-puc-caronas/blob/master/docs/relatorio/images/wireframe.png?raw=true)
+O wireframe mostra, de forma pouco detalhada, como o aplicativo funcionaria. Assim, logo na tela inicial haveria um mapa do Google, assim como telas de cadastro de informações, rotas e vagas.
 
 # Metodologia
 
@@ -149,6 +147,7 @@ A metodologia adotada pelo grupo foi o scrum. Criamos sprints internos para as p
 
 Utilizamos o Trello para a efetivação do KanBan, mantendo controle sobre o que faltava ser feito e quem o estava fazendo. Seguem o link do quadro controle de tarefas e o print do mesmo:
 https://trello.com/b/5SyInRQi/tiaw-puc-caronas
+![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-puc-caronas/blob/master/docs/relatorio/images/KanBan.png?raw=true)
 
 ## Divisão de Papéis
 
@@ -159,9 +158,6 @@ https://trello.com/b/5SyInRQi/tiaw-puc-caronas
 -Vinicius: Metodologia, design thinking, ambiente MIRO
 
 As tarefas foram divididas com base no modelo scrum.
- 
-![image]()
-
 
 ## Ferramentas
 
@@ -174,16 +170,11 @@ As tarefas foram divididas com base no modelo scrum.
 |Protótipo Interativo |  Figma | https://www.figma.com/file/HE4KyhmiBYZsDRFpOxQHd8/Untitled?node-id=0%3A1| 
 |KanBan |  Trello | https://trello.com/b/5SyInRQi/tiaw-puc-caronas| 
 
->
-> Liste as ferramentas empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
-> 
-As ferramentas empregadas no projeto são:
 
 - Editor de código: visual studio code
 - Ferramentas de comunicação: Discord e Whatsapp 
 
-Escolhemos o vc code porque ele e o mais utilizado, mais versatil, e ja tinhamos conhecimento dele. 
+Escolhemos o vs code porque ele e o mais utilizado, mais versatil, e ja tinhamos conhecimento dele. 
 As ferramentas de comunicação utilizadas possuem integração semelhante e todos do grupo já utilizam com frequência, facilitando a comunicação interna. 
 
 ## Controle de Versão
