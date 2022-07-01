@@ -12,8 +12,10 @@ O PUC Caronas é uma solução inovadora para ajudar universitários a encontrar
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+* João Luiz Silva Barbosa
+* Simone Alves Nogueira
+* Rommel Vieira Carneiro
+* Amália Soares Vieira de Vasconcelos
 
 ## Instruções de utilização
 
