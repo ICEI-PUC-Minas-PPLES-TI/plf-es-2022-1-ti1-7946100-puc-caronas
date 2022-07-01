@@ -171,7 +171,7 @@ As tarefas foram divididas com base no modelo scrum.
 |KanBan |  Trello | https://trello.com/b/5SyInRQi/tiaw-puc-caronas| 
 
 
-- Editor de código: visual studio code
+- Editor de código: Visual Studio Code
 - Ferramentas de comunicação: Discord e Whatsapp 
 
 Escolhemos o vs code porque ele e o mais utilizado, mais versatil, e ja tinhamos conhecimento dele. 
@@ -186,11 +186,17 @@ A ferramenta para controle de versão que escolhemos foi o próprio GitHub, que 
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O site Puc Caronas é uma ferramenta que visa a conexão dos alunos para melhor locomoção comum. Dessa forma, os usuários conseguem se relacionar por meio de pedidos e ofertas de caronas, informando para onde pretende ir, o horário de encontro e as informações de contato. O fim é o bem comum: maior conforto e segurança, por menor preço, para ambas as partes.
 
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Para trazer o projeto à vida, foi utilizado uma estrutura HTML (com estilização CSS), assim como arquivos JavaScript. Dessa maneira, os arquivos JS contam com:
+- Leitura e edição de campos de formulário (CRUD)
+- Cadastro e Login, assim como a validação de login em cada tela
+- Dados enviados e puxados do local storage
+
+Além disso, a API de mapa do "Leaflet"[Ref. 1] está presente na tela principal (home) do site, trazendo a localização do usuário e das unidades da Puc Minas, para que ele se oriente nos pontos de encontro combinados.
+No quesito prático da programação, o Visual Studio Code foi utilizado por cada um dos integrantes do grupo, além do GitHub para o salvamento de arquivos na nuvem e compartilhamento entre os integrantes do grupo, assim como o Git, para a clonagem de repositórios e controle de versão. O Discord e o Whatsapp também foram ferramentas essenciais para a comunicação interna, fazendo reuniões e organizando o Trello, mantendo sempre o controle de tarefas.
 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
 > problema, ou seja, implementar a sua solução. Liste todas as
