@@ -307,7 +307,8 @@ A funcionalidade do serviço é pautada toda no LocalStorage. Nesse contexto, os
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
+[REF 1] AGAFONKIN, Volodymyr. Leaflet: an open-source JavaScript library
+for mobile-friendly interactive maps. 2022. Dispoível em: https://leafletjs.com. Acesso em 05/2022
 
 > Inclua todas as referências (livros, artigos, sites, etc) utilizados
 > no desenvolvimento do trabalho.
