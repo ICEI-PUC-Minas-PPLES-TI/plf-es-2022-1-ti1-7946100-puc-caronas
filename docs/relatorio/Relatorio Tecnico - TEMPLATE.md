@@ -195,8 +195,50 @@ Para trazer o projeto à vida, foi utilizado uma estrutura HTML (com estilizaç�
 - Cadastro e Login, assim como a validação de login em cada tela
 - Dados enviados e puxados do local storage
 
-Além disso, a API de mapa do "Leaflet"[Ref. 1] está presente na tela principal (home) do site, trazendo a localização do usuário e das unidades da Puc Minas, para que ele se oriente nos pontos de encontro combinados.
+Além disso, a API de mapa do "Leaflet"[Ref. 1] está presente na tela principal (home) do site, trazendo a localização do usuário e das unidades da Puc Minas, para que ele se oriente nos pontos de encontro combinados. O framework Bootstrap também foi utilizado durante algumas fases da programação, mas para o envio final, foi retirado e o CSS foi repensado a fim de chegar ao melhor resultado visual ao usuário.
 No quesito prático da programação, o Visual Studio Code foi utilizado por cada um dos integrantes do grupo, além do GitHub para o salvamento de arquivos na nuvem e compartilhamento entre os integrantes do grupo, assim como o Git, para a clonagem de repositórios e controle de versão. O Discord e o Whatsapp também foram ferramentas essenciais para a comunicação interna, fazendo reuniões e organizando o Trello, mantendo sempre o controle de tarefas.
+
+**Diagrama de User Flow:**
+![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-puc-caronas/blob/master/docs/relatorio/images/UserFlow.jpg?raw=true)
+fonte: https://miro.com/app/board/uXjVOoxRS6A=/?share_link_id=985483267908<br/>
+<br/>
+
+**Protótipos de tela:**
+![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-puc-caronas/blob/master/docs/relatorio/images/1login.png?raw=true)
+Tela para o usuário acessar o software, com cadastro previamente realizado.<br/>
+<br/>
+
+![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-puc-caronas/blob/master/docs/relatorio/images/2cadastro.png?raw=true)
+Caso o usuário não tenha já efetuado o cadastro, há a tela para que ele preencha pela primeira vez com suas informações pessoais antes de fazer uso do website. <br/>
+<br/>
+
+![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-puc-caronas/blob/master/docs/relatorio/images/3home.png?raw=true)
+Após efetuar o cadastro/login, o usuário é redirecionado para a Home Screen do website, já com a API de mapa implementada, pedindo a sua localização, e mostrando a localização da PUC.<br/>
+<br/>
+
+![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-puc-caronas/blob/master/docs/relatorio/images/5liberacao-de-uso.png?raw=true)
+Na aba Perfil, é necessário completar o cadastro com as informações básicas para usar o website, sendo possível também voltar nessa tela futuramente para alterar os dados do perfil, deslogar, ou excluir seu perfil completamente.<br/>
+<br/>
+
+![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-puc-caronas/blob/master/docs/relatorio/images/16-caronas-pegar.png?raw=true)
+Ao clicar na seção _Caronas_ o usuário consegue ver as caronas cadastradas no aplicativo, incluindo as que ele mesmo postou e os posts de outros usuários. Caso ele deseje, sempre é possível adicionar novos posts de caronas. Além disso, os posts que ele fez têm direto nessa tela a opção de edição e exclusão, para que a informação esteja sempre atualizada e correta para o usuário.<br/>
+<br/>
+
+![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-puc-caronas/blob/master/docs/relatorio/images/8criacao-de-caronas.png?raw=true)
+Por meio de um formulário rápido de preencher e de acessar, é possível adicionar um post de carona, seja pedindo ou oferecendo-a. Ao clicar em editar carona, o usuário é redirecionado para esse mesmo formulário, já preenchido com as informações cadastradas anteriormente, tendo o poder de alterar e salvá-las<br/>
+<br/>
+
+![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-puc-caronas/blob/master/docs/relatorio/images/11detalhes-caronas.png?raw=true)
+A seção de detalhes de um post de carona feito pelo próprio usuário, contêm os botões de edição e exclusão, além das informações básicas da postagem. Informações de passageiros e/ou condutores também podem estar presentes<br/>
+<br/>
+
+![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-puc-caronas/blob/master/docs/relatorio/images/12caronas-user2.png?raw=true)
+A seção de detalhes de um post de carona feito por outro usuário, em vez dos botões de edição e exlucsão e as informações de passageiros/condutores, conta com um botão _Pegar Carona_, que pode ser clicado para sinalizar sua presença ao dono da postagem original.<br/>
+<br/>
+
+![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-puc-caronas/blob/master/docs/relatorio/images/13solicitacoes2.png?raw=true)
+Por fim, a tela de solicitações contém uma lista de usuários que pressionaram o botão _Pegar Carona_, explicitado na imagem anterior; e dá a opção do usuário de aceitar ou recusar a solicitação de carona feita.<br/>
+<br/>
 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
 > problema, ou seja, implementar a sua solução. Liste todas as
