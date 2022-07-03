@@ -174,12 +174,12 @@ As tarefas foram divididas com base no modelo scrum.
 - Editor de código: Visual Studio Code
 - Ferramentas de comunicação: Discord e Whatsapp 
 
-Escolhemos o vs code porque ele e o mais utilizado, mais versatil, e ja tinhamos conhecimento dele. 
+Escolhemos o vs code, tendo em vista que ele é o mais utilizado, mais versátil, e ja tínhamos conhecimento dele. 
 As ferramentas de comunicação utilizadas possuem integração semelhante e todos do grupo já utilizam com frequência, facilitando a comunicação interna. 
 
 ## Controle de Versão
 
-A ferramenta para controle de versão que escolhemos foi o próprio GitHub, que é a mais utilizada e com o uso mais fácil com o GitHub Desktop. Nós ainda não utilizamos pois não chegamos na parte de programação do projeto, apenas a parte conceitual.
+A ferramenta para controle de versão que escolhemos foi o próprio GitHub, que é a mais utilizada e com o uso mais fácil com o GitHub Desktop. A ferramenta do Git também foi fundamental para o controle de versão. Foi criada uma branch master e a branch  feature/new-version, para que fosse possível implementar funcionalidades novas durante o desenvolvimento sem que perdêssemos os dados anteriores. Após devidamente testadas e confirmadas funcionais, as novidades eram passadas novamente para a branch master.
 
 # **############## SPRINT 1 ACABA AQUI #############**
 
@@ -198,9 +198,19 @@ Para trazer o projeto à vida, foi utilizado uma estrutura HTML (com estilizaç�
 Além disso, a API de mapa do "Leaflet"[Ref. 1] está presente na tela principal (home) do site, trazendo a localização do usuário e das unidades da Puc Minas, para que ele se oriente nos pontos de encontro combinados. O framework Bootstrap também foi utilizado durante algumas fases da programação, mas para o envio final, foi retirado e o CSS foi repensado a fim de chegar ao melhor resultado visual ao usuário.
 No quesito prático da programação, o Visual Studio Code foi utilizado por cada um dos integrantes do grupo, além do GitHub para o salvamento de arquivos na nuvem e compartilhamento entre os integrantes do grupo, assim como o Git, para a clonagem de repositórios e controle de versão. O Discord e o Whatsapp também foram ferramentas essenciais para a comunicação interna, fazendo reuniões e organizando o Trello, mantendo sempre o controle de tarefas.
 
+**Quadro KanBan:**
+![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-puc-caronas/blob/master/docs/relatorio/images/kanban.png?raw=true)
+<br/>
+<br/>
+
 **Diagrama de User Flow:**
 ![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-puc-caronas/blob/master/docs/relatorio/images/UserFlow.jpg?raw=true)
-fonte: https://miro.com/app/board/uXjVOoxRS6A=/?share_link_id=985483267908<br/>
+Fonte: https://miro.com/app/board/uXjVOoxRS6A=/?share_link_id=985483267908<br/>
+<br/>
+
+**Diagrama StoryBoard**
+![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-puc-caronas/blob/master/docs/relatorio/images/StoryBoard.jpg?raw=true)
+Fonte: https://miro.com/app/board/uXjVOo2O214=/?share_link_id=639302987553<br/>
 <br/>
 
 **Protótipos de tela:**
@@ -255,15 +265,11 @@ Por fim, a tela de solicitações contém uma lista de usuários que pressionara
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
-
-> Inclua um diagrama da solução e descreva os módulos e aroes tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
-> 
-> **Exemplo do diagrama de Arquitetura**:
-> 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
-
+**Diagrama de arquitetura: **
+![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-puc-caronas/blob/master/docs/relatorio/images/Flowchart.jpg?raw=true)
+Fonte:https://miro.com/app/board/uXjVOo2RlDY=/?share_link_id=811741050563<br/>
+A funcionalidade do serviço é pautada toda no LocalStorage. Nesse contexto, os fomulários necessários para a utilização do website salvam os valores em formato de array no tal armazenamento local (tanto dados do perfil quanto os dados de um post); sendo possível a recuperação dos dados a qualquer momento. A vantagem de salvar em array é a possibilidade de edição posterior, em que o usuário é redirecionado para a mesma página, porém com os valores recuperados do Local Storage do navegador, identificados por meio do índice do post no array. Além disso, a exclusão é feita da mesma maneira, o sistema identifica a posição do array do post que será deletado e faz a modificação. A interação entre os próprios usuários, na promessa e justificativa da pertinência do Puc Caronas., é feita por meio do ID do user, sendo possível distinguir quais posts foram feitos por ele e quais foram feitos por outros usuários, de maneira que ele consegue enviar a solicitação para a vaga postada por outro aluno, por exemplo. Este outro aluno recebe as informações do usuário por meio do request feito ao local storage, que devolve o nome do aluno, assim como informações importantes no geral.<br/>
+<br/>
 
 # Avaliação da Aplicação
 
