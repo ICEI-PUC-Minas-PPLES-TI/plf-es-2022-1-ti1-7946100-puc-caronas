@@ -265,45 +265,41 @@ A funcionalidade do serviço é pautada toda no LocalStorage. Nesse contexto, os
 
 # Avaliação da Aplicação
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Primeiramente e, de forma a testar o software de maneira mais simplificada possível, foram testados os caminhos de cada página, tentando acessá-las pela URL do navegador e pelos botões disponíveis no menu. São essas páginas:
+> - Início (/home)
+> - Caronas (/caronas)
+> - Solicitações (/solicitacoes)
+> - Perfil (/perfil)
 
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
+Como mencionado, os testes das páginas foram testados das duas maneiras: acessando pela URL ou pelos botões. As duas formas satisfazem as expectativas dos testes.
+![image](https://user-images.githubusercontent.com/78825073/177055092-ecf4c098-d732-46a4-8abe-ef6d6f0827a2.png)
+![image](https://user-images.githubusercontent.com/78825073/177054976-1e879bce-dd00-468b-8872-241c4ce235bd.png)
+![image](https://user-images.githubusercontent.com/78825073/177055041-4c90dee8-86a4-40b1-9a51-a6f9eff6355b.png)
+![image](https://user-images.githubusercontent.com/78825073/177055058-629d9cda-6600-40f3-b1c3-60f980066f53.png)
+
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Conhecendo o código, sabemos que todos os botões presentes no projeto chamam uma função diferente e essencial para o funcionamento do software. Caso algum dos botões, seja de menu, cadastro, edição ou remoção, não funcione, toda a lógica estará comprometida. Por isso, os botões foram escolhidos para teste.
+![image](https://user-images.githubusercontent.com/78825073/177055751-19614025-928a-4f3d-a0de-2acd149a8efe.png)
+![image](https://user-images.githubusercontent.com/78825073/177055755-06e3212b-4651-4784-bede-2bf2fcbb41a4.png)
+![image](https://user-images.githubusercontent.com/78825073/177055762-47a56906-e89c-4c9d-a7d3-cf1823fca72d.png)
+![image](https://user-images.githubusercontent.com/78825073/177055766-626c89a9-1e40-43d9-83d7-6d48a0837106.png)
 
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
-> 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-
-## Ferramentas de Testes (Opcional)
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Comente sobre as ferramentas de testes utilizadas.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
 
 ## Registros de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Existem 4 botões primários no projeto, sendo eles:
+> - "Começar agora" na tela inicial, que direciona para a página de caronas. **(Funcionando)**
+> - "+ Anunciar" na tela de caronas, que direciona para uma tela de cadastro de caronas. **(Funcionando)**
+> - Dentro da tela de cadastro de caronas, aberta pelo botão citado anteriormente, existe um botão "Anunciar", que cadastra as informações da carona. **(Funcionando)**
+![image](https://user-images.githubusercontent.com/78825073/177056551-35cde66e-3cea-45dc-acc3-7577c5b3d8cd.png)
+> - Na tela de perfil existem 3 botões:
+>   - O botão "Sair", que desloga o usuário logado;
+>   - O botão "Salvar", que salva as alterações nas informações do usuário;
+>   - O botão "Excluir perfil", que exclui as informações de login do usuário, fazendo com que ele tenha que se cadastrar novamente.
 
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
-
+Por possuir integrantes um pouco mais experientes, os requisitos para a construção dos botões e funções a serem chamadas por eles foram elaborados previamente e testados durantes o desenvolvimento. Por isso, como esperado, na etapa de testes em produção, não foram encontrados nenhum problema quanto ao funcionamento ou design(que foi consertado em sprints anteriores). 
 
 # Referências
 
