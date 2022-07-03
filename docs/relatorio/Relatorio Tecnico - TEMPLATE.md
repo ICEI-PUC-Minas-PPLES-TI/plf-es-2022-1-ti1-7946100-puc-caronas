@@ -198,12 +198,12 @@ Para trazer o projeto à vida, foi utilizado uma estrutura HTML (com estilizaç�
 Além disso, a API de mapa do "Leaflet"[Ref. 1] está presente na tela principal (home) do site, trazendo a localização do usuário e das unidades da Puc Minas, para que ele se oriente nos pontos de encontro combinados. O framework Bootstrap também foi utilizado durante algumas fases da programação, mas para o envio final, foi retirado e o CSS foi repensado a fim de chegar ao melhor resultado visual ao usuário.
 No quesito prático da programação, o Visual Studio Code foi utilizado por cada um dos integrantes do grupo, além do GitHub para o salvamento de arquivos na nuvem e compartilhamento entre os integrantes do grupo, assim como o Git, para a clonagem de repositórios e controle de versão. O Discord e o Whatsapp também foram ferramentas essenciais para a comunicação interna, fazendo reuniões e organizando o Trello, mantendo sempre o controle de tarefas.
 
-**Quadro KanBan:**
+**Quadro KanBan**
 ![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-puc-caronas/blob/master/docs/relatorio/images/kanban.png?raw=true)
 <br/>
 <br/>
 
-**Diagrama de User Flow:**
+**Diagrama de User Flow**
 ![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-puc-caronas/blob/master/docs/relatorio/images/UserFlow.jpg?raw=true)
 Fonte: https://miro.com/app/board/uXjVOoxRS6A=/?share_link_id=985483267908<br/>
 <br/>
@@ -213,7 +213,12 @@ Fonte: https://miro.com/app/board/uXjVOoxRS6A=/?share_link_id=985483267908<br/>
 Fonte: https://miro.com/app/board/uXjVOo2O214=/?share_link_id=639302987553<br/>
 <br/>
 
-**Protótipos de tela:**
+**Tecnologias utilizadas**
+![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-puc-caronas/blob/master/docs/relatorio/images/TECNOLOGIAS.jpg?raw=true) <br/>
+Fonte: https://miro.com/app/board/uXjVOo1Ts-M=/?share_link_id=35820572290 <br/>
+<br/>
+
+**Protótipos de tela**
 ![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-puc-caronas/blob/master/docs/relatorio/images/1login.png?raw=true)
 Tela para o usuário acessar o software, com cadastro previamente realizado.<br/>
 <br/>
@@ -249,19 +254,6 @@ A seção de detalhes de um post de carona feito por outro usuário, em vez dos 
 ![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-puc-caronas/blob/master/docs/relatorio/images/13solicitacoes2.png?raw=true)
 Por fim, a tela de solicitações contém uma lista de usuários que pressionaram o botão _Pegar Carona_, explicitado na imagem anterior; e dá a opção do usuário de aceitar ou recusar a solicitação de carona feita.<br/>
 <br/>
-
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
-> 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
 
 ## Arquitetura da solução
 
