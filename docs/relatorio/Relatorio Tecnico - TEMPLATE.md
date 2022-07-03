@@ -265,7 +265,7 @@ Por fim, a tela de solicitações contém uma lista de usuários que pressionara
 
 ## Arquitetura da solução
 
-**Diagrama de arquitetura: **
+**Diagrama de arquitetura:**
 ![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-puc-caronas/blob/master/docs/relatorio/images/Flowchart.jpg?raw=true)
 Fonte:https://miro.com/app/board/uXjVOo2RlDY=/?share_link_id=811741050563<br/>
 A funcionalidade do serviço é pautada toda no LocalStorage. Nesse contexto, os fomulários necessários para a utilização do website salvam os valores em formato de array no tal armazenamento local (tanto dados do perfil quanto os dados de um post); sendo possível a recuperação dos dados a qualquer momento. A vantagem de salvar em array é a possibilidade de edição posterior, em que o usuário é redirecionado para a mesma página, porém com os valores recuperados do Local Storage do navegador, identificados por meio do índice do post no array. Além disso, a exclusão é feita da mesma maneira, o sistema identifica a posição do array do post que será deletado e faz a modificação. A interação entre os próprios usuários, na promessa e justificativa da pertinência do Puc Caronas., é feita por meio do ID do user, sendo possível distinguir quais posts foram feitos por ele e quais foram feitos por outros usuários, de maneira que ele consegue enviar a solicitação para a vaga postada por outro aluno, por exemplo. Este outro aluno recebe as informações do usuário por meio do request feito ao local storage, que devolve o nome do aluno, assim como informações importantes no geral.<br/>
