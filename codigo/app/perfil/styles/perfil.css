@@ -1,0 +1,62 @@
+.top-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-bar button {
+  position: absolute;
+  right: 0;
+}
+
+.top-bar button i {
+  color: #0f3e5c;
+}
+
+.first-time-warn {
+  text-align: center;
+  padding: 5px;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.form-fields-row {
+  display: flex;
+  gap: 10px;
+}
+
+.puc-data:first-child {
+  flex: 0.6;
+}
+
+.puc-data:last-child {
+  flex: 0.4;
+}
+
+#address {
+  display: flex;
+  gap: 10px;
+}
+
+#street {
+  flex: 1;
+}
+
+#number {
+  flex: 0.2;
+}
+
+#region {
+  flex: 0.7;
+}
+
+#delete {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#delete button {
+  color: #bd6c6c;
+}

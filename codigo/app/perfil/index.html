@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      href="../../assets/icons/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../../styles/global.css" />
+    <link rel="stylesheet" href="../../styles/nav.css" />
+    <link rel="stylesheet" href="styles/perfil.css" />
+    <title>Perfil</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navigation">
+        <ion-icon id="menu-mobile" name="menu-outline"></ion-icon>
+        <a href="../home/" class="menu-option">
+          <ion-icon name="home-outline"></ion-icon>
+          <span>Início</span>
+        </a>
+        <a href="../caronas/" class="menu-option">
+          <ion-icon name="car-outline"></ion-icon>
+          <span>Caronas</span>
+        </a>
+        <a href="../solicitacoes/" class="menu-option">
+          <ion-icon name="heart-outline"></ion-icon>
+          <span>Solicitações</span>
+        </a>
+        <a href="" class="menu-option">
+          <ion-icon name="person"></ion-icon>
+          <span>Perfil</span>
+        </a>
+      </nav>
+    </header>
+    <div class="container">
+      <main>
+        <form>
+          <div class="top-bar">
+            <h1>Perfil</h1>
+            <button type="button" class="icon-btn" id="logout-btn" title="Sair">
+              <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            </button>
+          </div>
+          <div class="first-time-warn hidden">
+            Para começar a usar o serviço, conclua o cadastro do seu perfil
+          </div>
+          <div class="form-field">
+            <label for="name">Nome</label>
+            <input type="text" id="name" required />
+          </div>
+          <div class="form-fields-row">
+            <div class="puc-data">
+              <label for="campus">Unidade</label>
+              <select id="campus" required>
+                <option value="" disabled selected>Selecionar</option>
+                <option value="praca">Praça da Liberdade</option>
+                <option value="coreu">Coração Eucarístico</option>
+                <option value="sgabr">São Gabriel</option>
+                <option value="barr">Barreiro</option>
+              </select>
+            </div>
+            <div class="puc-data">
+              <label for="classTime">Turno</label>
+              <select id="classTime" required>
+                <option value="" disabled selected>Selecionar</option>
+                <option value="morning">Manhã</option>
+                <option value="night">Noite</option>
+                <option value="fulltime">Integral</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="course">Curso</label>
+            <input type="text" id="course" required />
+          </div>
+          <div class="form-field">
+            <label for="address">Endereço</label>
+            <div id="address">
+              <input type="text" id="street" placeholder="Rua" />
+              <input type="number" id="number" placeholder="N°" />
+              <input
+                type="text"
+                id="region"
+                placeholder="Bairro/Região"
+                required
+              />
+            </div>
+          </div>
+          <button type="submit" id="submit">Salvar</button>
+          <div id="delete">
+            <button type="button" class="details-btn" id="delete-btn">
+              Excluir perfil
+            </button>
+          </div>
+        </form>
+      </main>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://unpkg.com/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="../../js/auth.js"></script>
+    <script src="../../js/nav.js"></script>
+    <script src="../../js/util.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

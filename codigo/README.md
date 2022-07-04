@@ -1,5 +1,12 @@
-# Código do Projeto
+# PUC Caronas
 
-Mantenha neste diretório todo o código fonte do projeto. 
+## Estrutura de diretórios
 
-Se necessário, descreva neste arquivo aspectos relevantes da estrutura de diretórios criada para organização do código.
+Os diretórios foram organizados de maneira semântica, em uma estrutura que favoreçe a criação e a utilização de rotas amigáveis ao usuário
+
+Na raiz do projeto, são encontrados os seguintes diretórios:
+
+- **app**: aplicação principal
+- **assets**: assets globais da aplicação
+- **js**: scripts globais da aplicação
+- **styles**: estilos globais da aplicação

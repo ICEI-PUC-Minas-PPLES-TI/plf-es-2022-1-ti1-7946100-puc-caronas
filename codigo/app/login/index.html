@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      href="../../assets/icons/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../../styles/global.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/animations.css" />
+    <title>Login - PUC Caronas</title>
+  </head>
+  <body>
+    <div>
+      <div class="logo">
+        <img
+          src="../../assets/img/logo-white.png"
+          alt="Logo PUC Caronas"
+          class="logo-lg"
+        />
+        <h3 class="upper">PUC Caronas</h3>
+      </div>
+      <main>
+        <div id="login-form">
+          <h2>Login</h2>
+          <form>
+            <div class="warn-msg error hidden" id="login-error-msg">
+              Login e/ou senha incorretos
+            </div>
+            <div class="form-field">
+              <label for="email">Email ou Matrícula</label>
+              <input type="text" id="login" required />
+            </div>
+            <div class="form-field">
+              <label for="pass">Senha</label>
+              <input type="password" id="pass" required />
+            </div>
+            <div class="btns">
+              <button type="submit">Entrar</button>
+              <a href="cadastrar/">Cadastrar</a>
+            </div>
+          </form>
+        </div>
+      </main>
+    </div>
+    <div id="waves-container">
+      <svg
+        class="waves"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28"
+        preserveAspectRatio="none"
+        shape-rendering="auto"
+      >
+        <defs>
+          <path
+            id="gentle-wave"
+            d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+          />
+        </defs>
+        <g class="parallax">
+          <use
+            xlink:href="#gentle-wave"
+            x="48"
+            y="0"
+            fill="rgba(255,255,255,0.5)"
+          />
+          <use
+            xlink:href="#gentle-wave"
+            x="48"
+            y="3"
+            fill="rgba(255,255,255,0.4)"
+          />
+          <use
+            xlink:href="#gentle-wave"
+            x="48"
+            y="5"
+            fill="rgba(255,255,255,0.2)"
+          />
+          <use
+            xlink:href="#gentle-wave"
+            x="48"
+            y="7"
+            fill="rgba(255,255,255,0.7)"
+          />
+        </g>
+      </svg>
+    </div>
+    <script src="https://unpkg.com/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="../../js/auth.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>

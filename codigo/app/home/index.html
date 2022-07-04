@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+      integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+      crossorigin=""
+    />
+    <link
+      rel="shortcut icon"
+      href="../../assets/icons/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../../styles/global.css" />
+    <link rel="stylesheet" href="../../styles/nav.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>PUC Caronas</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navigation">
+        <ion-icon id="menu-mobile" name="menu-outline"></ion-icon>
+        <a href="" class="menu-option">
+          <ion-icon name="home"></ion-icon>
+          <span>Início</span>
+        </a>
+        <a href="../caronas/" class="menu-option">
+          <ion-icon name="car-outline"></ion-icon>
+          <span>Caronas</span>
+        </a>
+        <a href="../solicitacoes/" class="menu-option">
+          <ion-icon name="heart-outline"></ion-icon>
+          <span>Solicitações</span>
+        </a>
+        <a href="../perfil/" class="menu-option">
+          <ion-icon name="person-outline"></ion-icon>
+          <span>Perfil</span>
+        </a>
+      </nav>
+    </header>
+    <div class="container">
+      <h1 class="title upper">PUC Caronas</h1>
+      <main>
+        <div class="welcome-msg"></div>
+        <div id="map"></div>
+        <div id="benefits">
+          <ul>
+            <li>
+              <div class="arrow">
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+              Economize no combustível e ajude um colega a economizar também
+            </li>
+            <li>
+              <div class="arrow">
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+              Faça novos amigos universitários
+            </li>
+            <li>
+              <div class="arrow">
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+              Chegue em casa mais cedo e com mais conforto
+            </li>
+          </ul>
+        </div>
+        <div id="go-btn">
+          <a href="../perfil/" class="btn" id="begin-btn">Começar agora!</a>
+        </div>
+      </main>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://unpkg.com/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script
+      src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+      integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+      crossorigin=""
+    ></script>
+    <script src="../../js/auth.js"></script>
+    <script src="../../js/nav.js"></script>
+    <script src="../../js/util.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

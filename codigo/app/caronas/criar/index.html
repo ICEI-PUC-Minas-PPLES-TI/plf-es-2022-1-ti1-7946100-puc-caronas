@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      href="../../../assets/icons/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../../../styles/global.css" />
+    <link rel="stylesheet" href="../../../styles/nav.css" />
+    <link rel="stylesheet" href="styles/form.css" />
+    <title>Anunciar Carona</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navigation">
+        <ion-icon id="menu-mobile" name="menu-outline"></ion-icon>
+        <a href="../../home/" class="menu-option">
+          <ion-icon name="home-outline"></ion-icon>
+          <span>Início</span>
+        </a>
+        <a href="../" class="menu-option">
+          <ion-icon name="car"></ion-icon>
+          <span>Caronas</span>
+        </a>
+        <a href="../../solicitacoes/" class="menu-option">
+          <ion-icon name="heart-outline"></ion-icon>
+          <span>Solicitações</span>
+        </a>
+        <a href="../../perfil/" class="menu-option">
+          <ion-icon name="person-outline"></ion-icon>
+          <span>Perfil</span>
+        </a>
+      </nav>
+    </header>
+    <div class="container">
+      <main>
+        <form>
+          <div class="top-bar">
+            <a href=".." class="btn icon-btn">
+              <i class="fa-solid fa-arrow-left"></i>
+            </a>
+            <h1>Anunciar Carona</h1>
+          </div>
+          <div class="form-field">
+            <label>Dia da semana</label>
+            <div id="week-days">
+              <div>
+                <input
+                  type="radio"
+                  id="mon"
+                  value="mon"
+                  name="weekDay"
+                  required
+                />
+                <label for="mon">segunda</label>
+              </div>
+              <div>
+                <input type="radio" id="tue" value="tue" name="weekDay" />
+                <label for="tue">terça</label>
+              </div>
+              <div>
+                <input type="radio" id="wed" value="wed" name="weekDay" />
+                <label for="wed">quarta</label>
+              </div>
+              <div>
+                <input type="radio" id="thu" value="thu" name="weekDay" />
+                <label for="thu">quinta</label>
+              </div>
+              <div>
+                <input type="radio" id="fri" value="fri" name="weekDay" />
+                <label for="fri">sexta</label>
+              </div>
+            </div>
+          </div>
+          <div class="form-fields-row">
+            <div class="form-field">
+              <label for="time">Hora</label>
+              <input type="time" id="time" required />
+            </div>
+            <div class="form-field">
+              <label for="spaces">Vagas</label>
+              <input type="number" id="spaces" min="1" value="1" required />
+            </div>
+            <div class="form-field">
+              <label for="route">Percurso</label>
+              <div class="row-field">
+                <div>
+                  <input
+                    type="radio"
+                    id="going"
+                    value="going"
+                    name="route"
+                    required
+                  />
+                  <label for="going">ida</label>
+                </div>
+                <div>
+                  <input type="radio" id="back" value="back" name="route" />
+                  <label for="back">volta</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-field">
+            <label>Eu gostaria de</label>
+            <div class="row-field">
+              <div>
+                <input
+                  type="radio"
+                  name="rideType"
+                  id="give"
+                  value="give"
+                  required
+                />
+                <label for="give">dar carona</label>
+              </div>
+              <div>
+                <input type="radio" name="rideType" id="get" value="get" />
+                <label for="get">pegar carona</label>
+              </div>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="meetingPoint">Ponto de encontro</label>
+            <input type="text" id="meetingPoint" />
+          </div>
+          <div class="submit">
+            <button type="submit" id="submit">Anunciar</button>
+          </div>
+        </form>
+      </main>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://unpkg.com/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="../../../js/auth.js"></script>
+    <script src="../../../js/nav.js"></script>
+    <script src="../../../js/util.js"></script>
+    <script src="js/form.js"></script>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+.top-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-bar .btn {
+  position: absolute;
+  left: 0;
+}
+
+.top-bar .btn i {
+  color: #0f3e5c;
+}
+
+#week-days {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  padding: 5px 5px 0;
+}
+
+.form-fields-row {
+  display: flex;
+  gap: 40px;
+}
+
+#time,
+#spaces {
+  width: 100px;
+}
+
+.row-field {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  height: 100%;
+}
+
+@media (max-width: 540px) {
+  #week-days {
+    flex-direction: column;
+  }
+
+  .form-fields-row {
+    gap: 20px;
+  }
+}
