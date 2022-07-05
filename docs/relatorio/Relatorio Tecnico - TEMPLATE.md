@@ -95,20 +95,20 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 - O programa deve conter uma tela para o cadastro completo tanto de quem dá a carona e de quem recebe. Essa tela deve conter formulários para o preenchimento das informações de cada indivíduo, contendo seu nome, idade, curso que faz, rota utilizada, valor gasto em seu deslocamento. No final para que o formulário seja enviado, o usuário deve concordar com os termos de uso e políticas do aplicativo/programa. PRIORIDADE: ALTA
 
 
-- Logo após o cadastro deve haver uma tela de login para o usuário acessar uma tela com uma API de mapas da Google, que calcula rotas. PRIORIDADE: MEDIA 
+- Logo após o cadastro deve haver uma tela de login para o usuário acessar uma tela com uma API de mapas da Google. PRIORIDADE: MEDIA 
  
-- Após o usuário inserir sua localização, seu destino e sua rota ser calculada, deve aparecer uma tela com as rotas e necessidades de cada usuário, com base no seu cadastro (Caso seja cadastrado como quem vai dar a carona, deve aparecer pessoas que precisam de carona; e caso seja cadastrado como quem precisa de carona deve aparecer quem está dando carona). PRIORIDADE: ALTA 
+- Após o usuário inserir sua localização e seu destino, deve aparecer uma tela com as necessidades de cada usuário, com base no seu cadastro (Caso seja cadastrado como quem vai dar a carona, deve aparecer pessoas que precisam de carona; e caso seja cadastrado como quem precisa de carona deve aparecer quem está dando carona). PRIORIDADE: ALTA 
 
 
-- Caso o usuário clique em alguma pessoa, deve aparecer as informações pertinentes para que as pessoas se comuniquem e saibam qual a rota e destino de cada uma, e um chat para elas se comunicarem.  PRIORIDADE: ALTA
+- Caso o usuário clique em alguma pessoa, deve aparecer as informações pertinentes para que as pessoas se comuniquem e saibam qual a rota e destino de cada uma.  PRIORIDADE: ALTA
 
 
 
 ### Requisitos não Funcionais
 
-- O programa deve ser escrito na linguagem C# utilizando o MySql de banco de dados para computador, e Kotlin e Swift para IOS e Android utilizando MongoDB de banco de dados  PRIORIDADE: MEDIA 
+- O programa deve ser escrito na linguagem HTML, CSS e JS, utilizando apenas o LocalStorage como banco de dados.  PRIORIDADE: MEDIA 
 
-- O aplicativo/programa deve ser multiplataforma, sendo IOS, Android e Windows, MAC e WEB.  PRIORIDADE: MEDIA
+- O aplicativo/programa deve ser acessível de diversas plataformas, por meio da responsividade WEB.  PRIORIDADE: MEDIA
 
 - O sistema deve respeitar o tempo máximo de 120 segundos durante processamentos.  PRIORIDADE: ALTA
 
