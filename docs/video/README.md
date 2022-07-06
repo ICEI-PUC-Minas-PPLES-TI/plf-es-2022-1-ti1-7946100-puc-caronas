@@ -1,8 +1,5 @@
-# Vídeos do Projeto
-A relação abaixo lista os vídeos feitos para o projeto:
- - [Vídeo AAAAAAAA]()
- - [Vídeo BBBBBBBB]()
+# Vídeo de Apresentação da PUC Caronas
 
-> Nesta pasta inclua arquivos de vídeo produzidos para divulgação do 
-> projeto e seus resutados.
+Link para o vídeo: https://youtu.be/OLNDtyOp7kg
 
+A ídeia do vídeo é apresentar a nossa marca, explicando o problema em que o nosso projeto atua, quem é o nosso público alvo, e como vamos a dificuldade de combinar caronas.
