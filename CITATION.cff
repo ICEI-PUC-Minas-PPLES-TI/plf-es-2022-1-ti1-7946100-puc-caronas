@@ -1,0 +1,37 @@
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+title: 
+authors:
+  - family-names: Pontes Duarte
+    given-names: Bruno
+  - family-names: Assis Lima
+    given-names: Vinícius
+  - family-names: de Carvalho Barbosa
+    given-names: Lucas
+  - family-names: Calebe Santos de Andrade
+    given-names: André
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Vieira Carneiro
+    given-names: Rommel
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Alves Nogueira
+    given-names: Simone
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Silva barbosa
+    given-names: João Luiz
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Soares Vieira de Vasconcelos
+    given-names: Amália
+keywords:
+  - dificuldade
+  - combinar
+  - carona
+  - puc caronas
+repository-code: 7946100
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2022-07-05
