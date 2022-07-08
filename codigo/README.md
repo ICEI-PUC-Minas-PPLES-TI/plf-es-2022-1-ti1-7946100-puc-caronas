@@ -2,7 +2,7 @@
 
 ## Estrutura de diretórios
 
-Os diretórios foram organizados de maneira semântica, em uma estrutura que favoreçe a criação e a utilização de rotas amigáveis ao usuário
+Os diretórios foram organizados de maneira semântica, em uma estrutura que favorece a criação e a utilização de rotas amigáveis ao usuário
 
 Na raiz do projeto, são encontrados os seguintes diretórios:
 
