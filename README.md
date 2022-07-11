@@ -19,4 +19,5 @@ O PUC Caronas é uma solução inovadora para ajudar universitários a encontrar
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Para executar a aplicação, basta acessar o link https://puc-caronas.puccaronas.repl.co/
+Assim que o site é aberto pela primeira vez, o usuário deverá fazer o cadastro completo. Após isso, o aplicativo é liberado para o uso. Para criar um post de carona, basta ir na seção de Caronas na barra de navegação superior e cadastrar um post novo, informando a quantidade de vagas e o percurso. Outro aluno cadastrado na mesma unidade consegue pedir ao primeiro uma vaga na carona que foi postada, clicando no post e logo em seguida no botão Pegar Carona. Para o primeiro usuário, aparece uma solicitação de participação na carona que pode ser negada ou aceitada. Dessa maneira, os posts são constantemente atualizados com a quantidade de vagas e informações dos passageiros, aparecendo assim que o usuário clicar no post para exibir os detalhes da carona.
