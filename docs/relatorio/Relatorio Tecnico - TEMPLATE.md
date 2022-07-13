@@ -11,7 +11,6 @@ Engenharia de software
 
 - André Calebe
 - Bruno Duarte
-- Gabriel Amorim
 - Lucas de Carvalho
 - Vinícius Assis
 
