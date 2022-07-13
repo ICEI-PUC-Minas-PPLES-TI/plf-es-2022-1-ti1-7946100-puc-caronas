@@ -6,7 +6,6 @@ O PUC Caronas é uma solução inovadora para ajudar universitários a encontrar
 
 * André Calebe Santos de Andrade
 * Bruno Pontes Duarte
-* Gabriel Amorim de Almeida Custódio
 * Lucas de Carvalo Barbosa
 * Vinicius Assis Lima
 
